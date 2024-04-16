@@ -2,7 +2,7 @@
 
 This repo provides the source code & data of our paper:
 
-<img src="./assets/overview.png" alt="image-20230517233229650" style="zoom:80%;" />
+<img src="./assets/overview.png" alt="image-overview" style="zoom:80%;" />
 
 ## OHD-Caps benchmark
 Our constructed OHD-Caps dataset is designed to assess whether models can accurately distinguish between correct texts and texts containing hallucinations in comparative environments. We select 500 samples from each of the COCO, Flickr30k, and Nocaps datasets, and generated 27 negative samples for each which include hallucinations of various types and degrees, utilizing the script `utils/generate_negative_samples.py`.
