@@ -56,4 +56,4 @@ run_finetune() {
 }
 
 run_finetune "clip_finetune_mix_contrastive_1e-5_3_margin_all_0.2_0.2" "../cache/model/clip-vit-large-patch14-336" \
-"IHD/train/all_train.json" "IHD/train/dev_data.json" "3" "1e-5" "0.2" "0.2"
+"OHD-Caps/train/all_train.json" "OHD-Caps/train/dev_data.json" "3" "1e-5" "0.2" "0.2"

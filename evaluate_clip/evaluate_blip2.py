@@ -23,11 +23,11 @@ def main():
     itm_correct = 0
     itc_correct = 0
     if args.dataset == "coco":
-        input_file_path = '../data/IHD/test/coco_out_label.json'
+        input_file_path = '../data/OHD-Caps/test/coco_out_label.json'
     elif args.dataset == "flickr":
-        input_file_path = '../data/IHD/test/flickr_out_label.json'
+        input_file_path = '../data/OHD-Caps/test/flickr_out_label.json'
     elif args.dataset == 'nocaps':
-        input_file_path = '../data/IHD/test/nocaps_out_label.json'
+        input_file_path = '../data/OHD-Caps/test/nocaps_out_label.json'
     else:
         raise ValueError("Invalid dataset name")
 

@@ -26,7 +26,7 @@ class COCO_Object(Dataset):
 
         self.image_preprocess = image_preprocess
 
-        json_file_path = os.path.join(root_dir, f"../data/IHD/test/coco_out_label.json")
+        json_file_path = os.path.join(root_dir, f"../data/OHD-Caps/test/coco_out_label.json")
         self.test_cases = []
         with open(json_file_path, 'r') as f:
             for line in f:
@@ -76,7 +76,7 @@ class Flickr_Object(Dataset):
 
         self.image_preprocess = image_preprocess
 
-        json_file_path = os.path.join(root_dir, f"../data/IHD/test/flickr_out_label.json")
+        json_file_path = os.path.join(root_dir, f"../data/OHD-Caps/test/flickr_out_label.json")
         self.test_cases = []
         with open(json_file_path, 'r') as f:
             for line in f:
@@ -125,7 +125,7 @@ class NoCaps_Object(Dataset):
 
         self.image_preprocess = image_preprocess
 
-        json_file_path = os.path.join(root_dir, f"../data/IHD/test/nocaps_out_label.json")
+        json_file_path = os.path.join(root_dir, f"../data/OHD-Caps/test/nocaps_out_label.json")
         self.test_cases = []
         with open(json_file_path, 'r') as f:
             for line in f:
