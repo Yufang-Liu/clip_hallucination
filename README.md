@@ -1,6 +1,6 @@
-# Code Name 
+# Investigating and Mitigating Object Hallucinations in Pretrained Vision-Language (CLIP) Models
 
-This repo provides the source code & data of our paper:
+This repo provides the source code & data of our paper: Investigating and Mitigating Object Hallucinations in Pretrained Vision-Language (CLIP) Models
 
 <img src="./assets/overview.png" alt="image-overview" style="zoom:80%;" />
 
