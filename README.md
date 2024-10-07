@@ -1,6 +1,6 @@
 # Investigating and Mitigating Object Hallucinations in Pretrained Vision-Language (CLIP) Models
 
-This repo provides the source code & data of our paper: Investigating and Mitigating Object Hallucinations in Pretrained Vision-Language (CLIP) Models
+This repo provides the source code & data of our paper: [Investigating and Mitigating Object Hallucinations in Pretrained Vision-Language (CLIP) Models](https://arxiv.org/pdf/2410.03176v1). Checkpoints can be found in [here](https://huggingface.co/yfliu/llava_clip_ohd_caps_lora).
 
 <img src="./assets/overview.png" alt="image-overview" style="zoom:80%;" />
 
