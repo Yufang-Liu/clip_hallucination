@@ -1180,7 +1180,7 @@ class CLIPModel(CLIPPreTrainedModel):
             if self.ne_margin_loss:
                 if batch_size > 1:
                     ne_margin_loss = torch.nn.functional.relu(
-                        self.ne_margin_threshold + ne_logits_per_text -
+                        self.ne_margin_threshold - ne_logits_per_text +
                         batch_ne_logits_per_text.max(dim=1)[0].unsqueeze(-1))
                     if valid_caption is not None:
                         ne_margin_loss = ne_margin_loss * valid_caption[:, 1:]
